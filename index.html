@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinopoisk project</title>
+</head>
+<body>
+    <header class="rounded">
+        <h1>Кинопоиск</h1>
+        <nav class="darkBg">
+            <button class="active">Главная</button>
+            <button>Избранное</button>
+        </nav>
+        <img src="../Front_53_OMDB/img/themeChange.svg" alt="themeChange" id="changeBtn">
+    </header>
+    <div class="search rounded">
+        <input type="text" name="search">
+        <button class="darkBg">Поиск</button>
+    </div>
+    <div class="loader rounded"></div>
+    <div class="rounded message">
+    </div>
+    <main class="rounded">
+        <div class="movieTitle darkBg">
+            <h2 class="textCenter">MIB</h2>
+        </div>
+        <div class="movie darkBg">
+            <div class="movieImage" style="background-image:url('https://i.postimg.cc/hvbfnMFw/film1.jpg')">
+            </div>
+
+            <div class="movieDesc">
+                <div class="desc">
+                    <div class="movieLeft">Actors</div>
+                    <div class="movieRight">Heath Harper, Debra Lamb, Lexsy Mckowen</div>
+                </div>
+                  
+                </div>
+            </div>
+        </div>
+        
+        <div class="similarTitle darkBg">
+            <h2 class="textCenter">Похожих фильмов 6</h2>
+        </div>
+        <div class="similarMovies">
+            <div class="similarCard" style="background-image: url('https://i.postimg.cc/Qth2PqbV/film2.jpg');">
+                <div class="favStar"></div>
+                <h3>MIB ADR</h3>
+            </div>
+                <div class="similarCard" style="background-image:url('https://i.postimg.cc/Qtm2rW4m/film3.jpg');">
+                    <div class="favStar"></div>
+                    <h3>MIB ADR</h3>
+                </div>
+                    <div class="similarCard" style="background-image:url('https://i.postimg.cc/XvDtRh05/film4.jpg');">
+                        <div class="favStar"></div>
+                        <h3>MIB ADR</h3>
+                       </div>
+                        <div class="similarCard"  style="background-image:url('https://i.postimg.cc/J7XSFPYy/film5.jpg');">
+                            <div class="favStar"></div>
+                            <h3>MIB ADR</h3>
+                        </div>
+                        <div class="similarCard"  style="background-image:url('https://i.postimg.cc/fRzFJZzX/film1.jpg');">
+                            <div class="favStar"></div>
+                            <h3>MIB ADR</h3>
+                        </div>
+                        
+            </div>
+        </div>
+    </main>
+
+<link rel="stylesheet" href="./style.css">
+<script src="script.js"></script>
+</body>
+</html>
